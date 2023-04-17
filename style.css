@@ -21,7 +21,8 @@
 
 body {
     background-color: var(--cor-fundo);
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -135,4 +136,8 @@ footer p {
 
     font-weight: 500;
     font-size: 1em;
+}
+
+@media (max-width: 1440px) {
+    
 }
