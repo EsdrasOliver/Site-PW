@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #c5ebd6;
+    --cor-titulos: #83E1AD;
+    --cor-header: #3DDC84;
+    --cor-mouse: #08cf4a; 
+    --cor-strong: #1A5C37;
+
+    /* --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e; */
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: var(--cor-header);
+    height: 100px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+header h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3em;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color: var(--cor-header); 
+    margin-top: 100px;
+
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-strong); 
+    padding: 10px;
+
+    font-weight: 500;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: var(--cor-mouse);
+    background-color: var(--cor-strong);
+    border-radius: 5px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+/*     height: 600px; */
+
+    border-radius: 0px 0px 20px 20px;
+
+    /* background-color: var(--cor-fundo); */
+    background-color: #fff;
+    
+    margin: 0px auto 20px auto;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+main div {
+    padding: auto;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+main div h2 {
+    color: var(--cor-titulos);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+main div p {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.8em;
+
+    padding-top: 10px;
+
+    font-weight: 400;
+    font-size: 1em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+    margin-top: 10px;
+    margin-bottom: 10px; 
+} 
+  
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--cor-header);
+    height: 80px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 1em;
+}
