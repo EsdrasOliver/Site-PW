@@ -1,0 +1,12 @@
+span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+img {
+    height: 30px;
+    margin: 0;
+}
